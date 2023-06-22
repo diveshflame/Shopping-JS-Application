@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="cart.css">
+    <script async src="https://kit.fontawesome.com/868406c2fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-link">
+            <li class="logo nav-item">
+                <a href="#" class="logo-text nav-text">Carlsberg</a>
+                <i class="fa-solid fa-angles-up logo-icon"></i>
+            </li>
+            <li class="nav-item">
+                <i class="fa-solid fa-shield-halved primary"></i>
+                <a class="nav-text">Product</a>
+                
+            </li>
+            <li class="nav-item" onclick="cart()">
+                <i class="fa-solid fa-bath primary "></i>
+                <a href="#container" class="nav-text">Buy Now</a>
+            </li>
+
+            <li class="nav-item">
+                <i class="fa-solid fa-star"></i>
+                <a class="nav-text">Making</a>   
+            </li>
+
+            <li class="nav-item">
+                <i id="fun" class="fa-solid fa-circle-info"></i>
+                <a class="nav-text">Info</a>   
+            </li>
+
+            <li class="nav-item">
+                <i class="fa-solid fa-gear fa-spin primary"></i>
+                <a class="nav-text">Settings</a>
+                
+            </li>
+
+    </nav>
+    <div class="beerVideo">
+        <video class="video b-lazy b-loaded" poster="" autoplay="" loop="" muted="" playsinline="">
+            <source type="video/mp4" src="https://www.carlsberg.com/media/6167/carlsberg-homepage-beer-beauty.mp4">
+        </video>
+        <img class="overlay-img" src="image/Carlsberg-Logo.png" alt="logo" width="150px" height="130px">
+        <h1 class="overlay">
+            In pursuit of better beer.
+        </h1>
+        <h1 class="overlay3">Bale Kulluga</h1>
+    </div>
+    
+    <div class="main">
+        
+    </div>
+    <div id="container" class="container">
+        <header>
+            <h1>Have a Party</h1>
+            <div class="shopping">
+                <img src="image/cart.png">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>We make best beers, have a drink and see for yourself.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul class="social-media">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Carlsberg Beer. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</html>
